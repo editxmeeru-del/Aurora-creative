@@ -1,0 +1,95 @@
+Prompt for Replit:
+Create a fully responsive modern website using pure HTML, CSS, and minimal JavaScript for my creative art business.
+IMPORTANT REQUIREMENTS:
+• The website must be 100% responsive on mobile, tablet, and desktop
+• Use clean modern UI with a premium artistic feel
+• Use white background with elegant spacing and minimal design
+• I will upload my logo file manually — design the layout so the logo appears in the header/navbar
+• Use the uploaded logo as the main brand identity (top left of navigation bar)
+• Do NOT use placeholder logos
+🎨 Design Style
+• Style: Modern, minimal, elegant, slightly luxury
+• Visual mood: Artistic, premium, clean
+• Layout: Spacious, visually appealing, not cluttered
+Color theme:
+• Primary: Deep charcoal / soft black
+• Accent: Muted gold
+• Background: White
+Typography:
+• Headings → Elegant modern font
+• Body text → Clean sans-serif
+• Maintain strong readability and professional look
+🧭 Navigation / Header
+Create a sticky responsive navigation bar with logo and menu items:
+Home
+About
+Services
+Gallery / Portfolio
+Pricing / Packages
+Contact
+(Optional) Book Now / Inquiry Button
+Navigation must collapse into a mobile hamburger menu.
+🏠 Home Page
+Include:
+• Hero section with headline + subheading
+• Call-to-action button (Contact / Book Service)
+• Short introduction of the brand
+• Highlight services visually
+• Testimonials section (design ready even if dummy text)
+• Clean modern layout
+👤 About Page
+Include:
+• Brand story / introduction
+• Professional layout
+• Space for artist/business description
+• Elegant typography
+🛠 Services Page
+Create structured sections for:
+• Calligraphy
+• Mehndi / Henna Art
+• Decorations / Event Art
+• Painting / Custom Designs
+Each section must have:
+• Title
+• Description
+• Optional image placeholder
+• Clean layout
+🖼 Gallery / Portfolio Page
+• Grid-based responsive gallery
+• Image placeholders
+• Modern hover effect
+• Optimized spacing
+• Fully responsive layout
+💰 Pricing / Packages Page
+• Clean pricing cards layout
+• Mobile-friendly design
+• Sections for different packages/services
+• Professional appearance
+📞 Contact Page
+Include:
+• Contact form (Name, Email, Message)
+• Clean input styling
+• Responsive layout
+• Space for phone/social links
+• Optional embedded map placeholder
+Form does not need backend functionality but must be styled properly.
+📱 Responsiveness Rules
+Ensure:
+• Mobile-first layout
+• Flexbox or modern CSS layout
+• No horizontal scrolling issues
+• Proper spacing on small screens
+• Scalable images
+⚡ Performance & Code Quality
+• Clean semantic HTML
+• Organized CSS
+• Avoid heavy libraries/frameworks
+• Fast loading structure
+• Easy to edit content
+✨ Extra Important Elements
+Add:
+• Smooth scrolling
+• Subtle modern animations (minimal)
+• Footer with navigation links & social icons
+• Professional structure suitable for real business use
+End result should look like a real premium creative studio website, not a basic template
