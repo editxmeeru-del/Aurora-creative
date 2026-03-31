@@ -162,6 +162,67 @@
             color: white !important;
         }
 
+        .blog-section {
+    padding: 100px 0;
+    background: #faf7f2;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.blog-card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-8px);
+}
+
+.blog-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 24px;
+}
+
+.blog-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: #2d2d2d;
+}
+
+.blog-content p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.read-more {
+    color: #b08d57;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.blog-btn-wrap {
+    text-align: center;
+    margin-top: 40px;
+}
         /* Hero */
         .hero {
             min-height: 90vh;
@@ -437,6 +498,7 @@
                 <a href="#gallery">Gallery</a>
                 <a href="#pricing">Pricing</a>
                 <a href="#contact">Contact</a>
+                <li><a href="blog.html">Blog</a></li>
                 <a href="#contact" class="btn-inquiry">Book Now</a>
             </div>
 
@@ -538,6 +600,49 @@
                 </div>
             </div>
         </section>
+
+<section id="blog" class="blog-section">
+    <div class="container">
+        <h2 class="section-title">Latest from Our Blog</h2>
+        <p class="section-subtitle">
+            Bridal mehndi inspiration, wedding styling ideas, and elegant event trends.
+        </p>
+
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="assets/blog-1.jpg" alt="Top Bridal Mehndi Designs">
+                <div class="blog-content">
+                    <h3>Top 10 Bridal Mehndi Designs for Pakistani Brides</h3>
+                    <p>Explore timeless and modern bridal henna styles perfect for weddings and nikkah events.</p>
+                    <a href="blog-bridal-mehndi-designs.html" class="read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="assets/blog-2.jpg" alt="Elegant Nikkah Decor Ideas">
+                <div class="blog-content">
+                    <h3>Elegant Nikkah Decor Ideas for a Dreamy Setup</h3>
+                    <p>Minimal, floral, and luxurious decor inspirations for your most memorable celebration.</p>
+                    <a href="blog-nikkah-decor-ideas.html" class="read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="assets/blog-3.jpg" alt="Custom Wedding Calligraphy">
+                <div class="blog-content">
+                    <h3>Custom Calligraphy Ideas for Wedding Invitations</h3>
+                    <p>Add a refined artistic touch to your wedding stationery with handcrafted calligraphy.</p>
+                    <a href="blog-calligraphy-invitations.html" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-btn-wrap">
+            <a href="blog.html" class="btn">View All Posts</a>
+        </div>
+    </div>
+</section>
+
 
         <section id="contact">
             <div class="container">
